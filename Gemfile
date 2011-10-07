@@ -19,7 +19,9 @@ end
 gem 'jquery-rails'
 gem "execjs"
 
-
+group :production do
+  gem 'therubyracer-heroku'
+end
 # Use unicorn as the web server
 # gem 'unicorn'
 
