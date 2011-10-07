@@ -1,0 +1,14 @@
+
+<h4 style="color:#007700;">Live Question App Login</h4>
+<div style="background-color: #F5F5F0; width: 350px; height: 170px; border-top: 1px solid #007700; border-bottom:1px solid #007700; ">
+<p id="notice"><%= notice %></p><p id="alert"><%= alert %></p>
+  <form action="/users/signIn" method="get">
+    <br/><b>User ID: </b>  <br/>
+    <input type="text" name="uname" style="width: 140px;"/>
+    <br/>
+    <b> Password: </b>  <br/>
+    <input type="password" name="password" style="width: 140px;"/>
+    <br/>  <br/>
+    <input type="submit" value="Sign in"/>  <%= link_to 'New User', new_user_path %>  <span style="font-size: 7pt;">(Sign up here for a new account)</span>
+  </form>
+</div>

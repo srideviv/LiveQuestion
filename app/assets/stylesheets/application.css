@@ -1,0 +1,177 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+body,
+html {
+    margin: 5px;
+    padding: 0;
+    color: #000;
+    font-size: 0.25em;
+    background: #E4EDC2; /* old browsers */
+    background: -moz-linear-gradient(top, #E4EDC2 0px, #F5F7E7 55px, #F5F7E7 100%); /* firefox */
+    background: -webkit-linear-gradient(top, #E4EDC2 0px, #F5F7E7 55px, #F5F7E7 100px); /* webkit */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#E4EDC2', endColorstr = '#F5F7E7', GradientType = 0); /* ie */
+    background: -o-linear-gradient(top, #E4EDC2 0%, #F5F7E7 55%, #F5F7E7 100%); /* opera */
+}
+
+table {
+    border-bottom-color: green;
+    border-bottom-width: 5px;
+
+}
+
+table tr.even td {
+    background-color: #E3ECC0;
+    /* border-bottom: 1px solid #ccc; */
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+table tr.odd td {
+    background-color: #FDFFEF;
+
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+}
+ .question {
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.voteup {
+    height: 25px;
+    width: 30px;
+    border: 0px;
+    }
+
+a:hover{
+    color: blue;
+    background-color: yellow;
+    border: 1px solid blue;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+
+/*.main_container{
+   background: -webkit-gradient(linear, left top, left bottom,from( #000),to(#cccccc) );
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#777777');
+   background: -moz-linear-gradient(top, #ffe4c4,#CCCCCC);
+
+} */
+
+#search {
+    margin-right: 480px;
+    margin-left: 380px;
+    padding-top: 15px;
+    text-padding: 20px;
+    font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+    background-color: transparent;
+    font-size: 16px;;
+    color: #154A6F;
+    border: 1px solid #154A6F;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.4) 2px 2px 0 2px;
+    text-indent: 50px;
+}
+
+.searchBox{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.searchButton{
+    width : 70px;
+    height: 30px;
+    font-size: 14px;
+    font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+    color: #154A6F;
+}
+
+#header {
+  -moz-background-clip: border;
+  -moz-background-origin: padding;
+  -moz-background-size: auto auto;
+  border-top: 3px solid #a7ce38;
+  background: #2f76a5; /* old browsers */
+  background: -moz-linear-gradient(top, #2f76a5 0%, #2c74a3 8%, #2c72a0 13%, #266795 34%, #276895 35%, #276794 36%, #256692 38%, #286693 39%, #24638e 45%, #25628e 46%, #23618d 48%, #22618c 49%, #1f5e86 54%, #225c87 56%, #1d5d85 57%, #1d5880 64%, #1d5980 65%, #1a567e 67%, #1a547b 70%, #1c557c 71%, #19537a 72%, #19537a 74%, #1c537a 75%, #195279 76%, #174e74 88%, #144c71 91%, #174c71 92%, #144a6e 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2f76a5), color-stop(8%,#2c74a3), color-stop(13%,#2c72a0), color-stop(34%,#266795), color-stop(35%,#276895), color-stop(36%,#276794), color-stop(38%,#256692), color-stop(39%,#286693), color-stop(45%,#24638e), color-stop(46%,#25628e), color-stop(48%,#23618d), color-stop(49%,#22618c), color-stop(54%,#1f5e86), color-stop(56%,#225c87), color-stop(57%,#1d5d85), color-stop(64%,#1d5880), color-stop(65%,#1d5980), color-stop(67%,#1a567e), color-stop(70%,#1a547b), color-stop(71%,#1c557c), color-stop(72%,#19537a), color-stop(74%,#19537a), color-stop(75%,#1c537a), color-stop(76%,#195279), color-stop(88%,#174e74), color-stop(91%,#144c71), color-stop(92%,#174c71), color-stop(100%,#144a6e)); /* webkit */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f76a5', endColorstr='#144a6e',GradientType=0 ); /* ie */
+  background: -o-linear-gradient(top, #2f76a5 0%,#2c74a3 8%,#2c72a0 13%,#266795 34%,#276895 35%,#276794 36%,#256692 38%,#286693 39%,#24638e 45%,#25628e 46%,#23618d 48%,#22618c 49%,#1f5e86 54%,#225c87 56%,#1d5d85 57%,#1d5880 64%,#1d5980 65%,#1a567e 67%,#1a547b 70%,#1c557c 71%,#19537a 72%,#19537a 74%,#1c537a 75%,#195279 76%,#174e74 88%,#144c71 91%,#174c71 92%,#144a6e 100%); /* opera */537a 73%,#19537a 74%,#1c537a 75%,#175279 76%,#1a5279 77%,#174e74 88%,#144c71 91%,#174c71 92%,#144a6e 100%); /* opera */
+  color: #FFFFFF;
+  min-height: 80px;
+  text-indent: 20px;
+  /*padding-top: 30px;*/
+}
+.appname{
+  font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+  font-size: 300%;
+  line-height: 120%;
+}
+#comments {
+  background: #ffffff;
+  border: #e6e6fa;
+}
+
+#comment:hover {
+    border: none;
+    background-color: transparent;
+    border-top: 1px solid #d8dfea;
+    border-bottom: 1px solid #d8dfea;
+}
+
+.home {
+    float: right;
+    padding-right: 15px;
+    margin-top: -3px;
+}
+
+.login{
+    width: 350px;
+    height: 200px;
+    font-family: "Myriad Pro", "Myriad Web Pro Regular", "Lucida Grande", Geneva, Trebuchet MS, sans-serif;
+    color: #154A6F;
+    font-size: 14px;
+    box-shadow: rgba(0,0,0,0.4) 2px 1px 3px 2px;
+    border-radius: 7px;
+    text-indent: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.logout {
+    float: right;
+}
+
+#usertable{
+    border-bottom: 3px solid #000;
+}
+
+
+#footer{
+    /*references : drupal aquia marina theme open source theme*/
+    -moz-background-clip: border;
+  -moz-background-origin: padding;
+  -moz-background-size: auto auto;
+  border-top: 3px solid #a7ce38;
+  background: #2f6735; /* old browsers */
+  background: -moz-linear-gradient(top, #2f76a5 0%, #2c74a3 8%, #2c72a0 13%, #266795 34%, #276895 35%, #276794 36%, #256692 38%, #286693 39%, #24638e 45%, #25628e 46%, #23618d 48%, #22618c 49%, #1f5e86 54%, #225c87 56%, #1d5d85 57%, #1d5880 64%, #1d5980 65%, #1a567e 67%, #1a547b 70%, #1c557c 71%, #19537a 72%, #19537a 74%, #1c537a 75%, #195279 76%, #174e74 88%, #144c71 91%, #174c71 92%, #144a6e 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2f76a5), color-stop(8%,#2c74a3), color-stop(13%,#2c72a0), color-stop(34%,#266795), color-stop(35%,#276895), color-stop(36%,#276794), color-stop(38%,#256692), color-stop(39%,#286693), color-stop(45%,#24638e), color-stop(46%,#25628e), color-stop(48%,#23618d), color-stop(49%,#22618c), color-stop(54%,#1f5e86), color-stop(56%,#225c87), color-stop(57%,#1d5d85), color-stop(64%,#1d5880), color-stop(65%,#1d5980), color-stop(67%,#1a567e), color-stop(70%,#1a547b), color-stop(71%,#1c557c), color-stop(72%,#19537a), color-stop(74%,#19537a), color-stop(75%,#1c537a), color-stop(76%,#195279), color-stop(88%,#174e74), color-stop(91%,#144c71), color-stop(92%,#174c71), color-stop(100%,#144a6e)); /* webkit */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f76a5', endColorstr='#144a6e',GradientType=0 ); /* ie */
+  background: -o-linear-gradient(top, #2f76a5 0%,#2c74a3 8%,#2c72a0 13%,#266795 34%,#276895 35%,#276794 36%,#256692 38%,#286693 39%,#24638e 45%,#25628e 46%,#23618d 48%,#22618c 49%,#1f5e86 54%,#225c87 56%,#1d5d85 57%,#1d5880 64%,#1d5980 65%,#1a567e 67%,#1a547b 70%,#1c557c 71%,#19537a 72%,#19537a 74%,#1c537a 75%,#195279 76%,#174e74 88%,#144c71 91%,#174c71 92%,#144a6e 100%); /* opera */537a 73%,#19537a 74%,#1c537a 75%,#175279 76%,#1a5279 77%,#174e74 88%,#144c71 91%,#174c71 92%,#144a6e 100%); /* opera */
+  color: #FFFFFF;
+  min-height: 24px;
+}
+#login.hover{
+    color: blue;
+}

@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+comment1:
+  reply: This is comment1 from fixture
+  user: sri
+  post: post1
+
+comment2:
+  reply: This is comment2 from fixture
+  user: gir
+  post: post2
+
+comment3:
+  reply: This is comment3 from fixture
+  user: ash
+  post: post3

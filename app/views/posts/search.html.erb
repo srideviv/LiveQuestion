@@ -1,0 +1,86 @@
+<% if session[:current_user_id] == nil %>
+    <%= link_to 'login', :controller => "login", :action => "index" %>
+    <br>
+<% end %>
+<div id="container">
+
+  <% if session[:admin_user] !=false %>
+      <h3 style="margin-right: 350px; margin-left: 350px;width: 400px">Admin DashBoard</h3>
+
+      <div id="tabs" style="margin-right: 350px; margin-left: 350px;width: 400px">
+
+        <ul>
+          <li><a href="#tabs-1">New User</a></li>
+          <li><a href="#tabs-2">Delete User</a></li>
+          <li><a href="#tabs-3">Statistics</a></li>
+        </ul>
+
+        <div id="tabs-1"> Add New User: <%= link_to 'New User', new_user_path %> </div>
+        <div id="tabs-2"> Delete User from the system: <%= link_to 'Delete User', :controller => "users", :action => "index" %></div>
+        <div id="tabs-3"> View Report <%= link_to 'Report', :controller => "users", :action => "index" %></div>
+
+      </div>
+      </div>
+
+  <% end %>
+  <%= link_to 'Post a Question', new_post_path %>
+  <br>
+
+  <h4>Questions</h4>
+  <table style="width: 100%">
+
+    <% @posts.each do |post| %>
+        <tr class="<%= cycle("even", "odd") %>">
+          <td>
+            <p class="question"> <%= post.question %>
+              <% if session[:current_user_id]!=nil %>
+
+                  <%= link_to image_tag( src="/images/thumbs-up.png", :class => "voteup"),
+                              new_vote_path(:post_id=>post.id) %>
+                  <% if post.votes.count!=0 %>
+                      [<%= h post.votes.count %>]
+                  <% end %>
+
+                  <%= link_to image_tag(src="/images/comment.png", :class => "voteup"),
+                              new_comment_path(:post_id=>post.id, :post_question=>post.question) %>
+                  <% if post.comments.count!=0 %>
+                      [<%= h post.comments.count %>]
+                  <% end %>
+              <% end %>
+
+            </p>
+
+            <p>Created by: <%= h post.user.uname %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Created at: <%= h post.created_at.to_formatted_s(:long_ordinal) %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Last Updated at: <%= h post.updated_at.to_formatted_s(:long_ordinal) %> </p>
+            Comments:
+            <ol id="comments">
+              <% post.comments.each do |comment| %>
+
+                  <li>
+                    <%= comment.reply %>
+
+                    <% if session[:current_user_id]!=nil %>
+                        <%= link_to image_tag(src="/images/thumbs-up.png", :class => "voteup"),
+                                    new_comment_vote_path(:comment_id=>comment.id) %>
+                        <% if comment.comment_votes.count!=0 %>
+                            [<%= h comment.comment_votes.count %>]
+                        <% end %>
+                    <% end %>
+                  </li>
+              <% end %>
+            </ol>
+            <% if session[:admin_user] !=false || session[:current_user_id] == post.user_id %>
+
+                <%= link_to 'Show', post %>
+                <%= link_to 'Edit', edit_post_path(post) %>
+                <%= link_to 'Destroy', post, confirm: 'Are you sure?', method: :delete %>
+            <% end %>
+          </td>
+        </tr>
+    <% end %>
+  </table>
+
+  </div>
+  </div>
+  <br/>

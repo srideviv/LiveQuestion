@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+post1:
+  question: "I am post1 from fixture"
+  numvotes: 20
+  user: sri
+
+post2:
+  question: "I am post2 from fixture"
+  numvotes: 20
+  user: gir
+
+post3:
+  question: "I am post3 from fixture"
+  numvotes: 20
+  user: ash

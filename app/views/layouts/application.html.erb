@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="SHORTCUT ICON" href="/images/ncsu_125.png"/>
+  <title>LiveQuestionApp</title>
+  <%= stylesheet_link_tag "application" %>
+  <%= javascript_include_tag "application" %>
+  <script type="text/javascript" src="/javascripts/jquery-ui-1.8.13.custom.min.js"></script>
+
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+
+
+<div id="header">
+  <p class="appname">Live Question Tool App: CSC 517
+
+
+    <% if session[:current_user_id] != nil %>
+        <%= link_to image_tag(src="/images/logout.png", :class => "logout"), :controller => "login", :action => "logout" %>
+
+    <% end %>
+    <%= link_to image_tag(src="/images/House.png", :class => "home"), posts_path %>
+
+</div>
+
+
+<div id="search">
+  <div><img src="/images/Search.png" class="voteup"/>
+  <span> Search by user or post:</span>  <br/>  <br/>
+  <form action="/users/search" method="get" id="search_form">
+    <input id="search_input" class="searchBox" type="text" name="inp"/> <input type="submit" id="user" class="searchButton" name="usearch" value="user"/>
+    <input type="submit" class="searchButton" id="post" name="psearch" value="post"/>
+  </form>
+  </div>
+  <br/>
+</div>
+<br/><br/>
+
+<%= yield %>
+<br/> <br/>  <br/>
+<div id="footer">
+  <!-- Copyright:Sridevi Venugopal, Ashwini BN, Girish A Pandit-->
+</div>
+</body>
+
+</html>

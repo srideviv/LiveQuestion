@@ -1,0 +1,177 @@
+# Logfile created on 2011-10-05 16:15:25 -0400 by logger.rb/25413
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /comments with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /comments/new with {} and HTTP headers {"HTTP_REFERER"=>"/comments"}
+REQUESTING PAGE: POST /comments with {"utf8"=>"✓", "comment"=>{"reply"=>"This is my comment", "post_id"=>""}, "commit"=>"Create Comment"} and HTTP headers {"HTTP_REFERER"=>"/comments/new"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"zzzzzzzz", "psearch"=>"post"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"zzzzzzzz", "psearch"=>"post"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: POST /posts with {"utf8"=>"✓", "post"=>{"question"=>"This is my post"}, "commit"=>"Create Post"} and HTTP headers {"HTTP_REFERER"=>"/posts/new"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts/report?id=options with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"zzzzzzzz", "psearch"=>"post"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: POST /posts with {"utf8"=>"✓", "post"=>{"question"=>"This is my post"}, "commit"=>"Create Post"} and HTTP headers {"HTTP_REFERER"=>"/posts/new"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts/report?id=options with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"zzzzzzzz", "psearch"=>"post"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"zzzzzzzz", "usearch"=>"user"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: POST /posts with {"utf8"=>"✓", "post"=>{"question"=>"This is my post"}, "commit"=>"Create Post"} and HTTP headers {"HTTP_REFERER"=>"/posts/new"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts/report?id=options with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"zzzzzzzz", "psearch"=>"post"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"zzzzzzzz", "usearch"=>"user"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: POST /posts with {"utf8"=>"✓", "post"=>{"question"=>"This is my post"}, "commit"=>"Create Post"} and HTTP headers {"HTTP_REFERER"=>"/posts/new"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts/report?id=options with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts/159828990 with {} and HTTP headers {"HTTP_REFERER"=>"/posts/report?id=options"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"zzzzzzzz", "psearch"=>"post"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"zzzzzzzz", "usearch"=>"user"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: POST /posts with {"utf8"=>"✓", "post"=>{"question"=>"This is my post"}, "commit"=>"Create Post"} and HTTP headers {"HTTP_REFERER"=>"/posts/new"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts/report?id=options with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts/159828990 with {} and HTTP headers {"HTTP_REFERER"=>"/posts/report?id=options"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /comments/new?post_id=159828990&post_question=I+am+post2+from+fixture with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: POST /comments with {"utf8"=>"✓", "comment"=>{"reply"=>"This is my comment", "post_id"=>"159828990"}, "commit"=>"Create Comment"} and HTTP headers {"HTTP_REFERER"=>"/comments/new?post_id=159828990&post_question=I+am+post2+from+fixture"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: POST /posts with {"utf8"=>"✓", "post"=>{"question"=>"This is my post"}, "commit"=>"Create Post"} and HTTP headers {"HTTP_REFERER"=>"/posts/new"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"This is my post", "psearch"=>"post"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"sri", "usearch"=>"user"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: POST /posts with {"utf8"=>"✓", "post"=>{"question"=>"This is my post"}, "commit"=>"Create Post"} and HTTP headers {"HTTP_REFERER"=>"/posts/new"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts/report?id=options with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts/159828990 with {} and HTTP headers {"HTTP_REFERER"=>"/posts/report?id=options"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /comments/new?post_id=159828990&post_question=I+am+post2+from+fixture with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: POST /comments with {"utf8"=>"✓", "comment"=>{"reply"=>"This is my comment", "post_id"=>"159828990"}, "commit"=>"Create Comment"} and HTTP headers {"HTTP_REFERER"=>"/comments/new?post_id=159828990&post_question=I+am+post2+from+fixture"}
+REQUESTING PAGE: GET /login with {} and HTTP headers {}
+REQUESTING PAGE: GET /login/login with {"uname"=>"sri", "password"=>"fixpassword1"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {"HTTP_REFERER"=>"/login/login"}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: POST /posts with {"utf8"=>"✓", "post"=>{"question"=>"This is my post"}, "commit"=>"Create Post"} and HTTP headers {"HTTP_REFERER"=>"/posts/new"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /posts/new with {} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"This is my post", "psearch"=>"post"} and HTTP headers {"HTTP_REFERER"=>"/posts"}
+REQUESTING PAGE: GET /posts with {} and HTTP headers {}
+REQUESTING PAGE: GET /users/search with {"inp"=>"sri", "usearch"=>"user"} and HTTP headers {"HTTP_REFERER"=>"/posts"}

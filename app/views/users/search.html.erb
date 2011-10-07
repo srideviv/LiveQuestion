@@ -1,0 +1,54 @@
+
+<table style="width: 100%">
+
+   <% @posts.each do |post| %>
+       <tr class="<%= cycle("even", "odd") %>">
+         <td>
+           <p class="question"> <%= post.question %>
+             <% if session[:current_user_id]!=nil %>
+
+                 <%= link_to image_tag(src="/images/thumbs-up.png", :class => "voteup"),
+                             new_vote_path(:post_id=>post.id) %>
+                 <% if post.votes.count!=0 %>
+                     [<%= h post.votes.count %>]
+                 <% end %>
+
+                 <%= link_to image_tag(src="/images/comment.png", :class => "voteup"),
+                             new_comment_path(:post_id=>post.id, :post_question=>post.question) %>
+                 <% if post.comments.count!=0 %>
+                     [<%= h post.comments.count %>]
+                 <% end %>
+             <% end %>
+
+           </p>
+
+           <p>Created by: <%= h post.user.uname %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             Created at: <%= h post.created_at.to_formatted_s(:long_ordinal) %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             Last Updated at: <%= h post.updated_at.to_formatted_s(:long_ordinal) %> </p>
+           Comments:
+           <ol id="comments">
+             <% post.comments.each do |comment| %>
+
+                 <li>
+                   <%= comment.reply %>
+
+                   <% if session[:current_user_id]!=nil %>
+                       <%= link_to image_tag(src="/images/thumbs-up.png", :class => "voteup"),
+                                   new_comment_vote_path(:comment_id=>comment.id) %>
+                       <% if comment.comment_votes.count!=0 %>
+                           [<%= h comment.comment_votes.count %>]
+                       <% end %>
+                   <% end %>
+                 </li>
+             <% end %>
+           </ol>
+           <% if session[:admin_user] !=false || session[:current_user_id] == post.user_id %>
+
+               <%= link_to 'Show', post %>
+               <%= link_to 'Edit', edit_post_path(post) %>
+               <%= link_to 'Destroy', post, confirm: 'Are you sure?', method: :delete %>
+           <% end %>
+         </td>
+       </tr>
+   <% end %>
+ </table>

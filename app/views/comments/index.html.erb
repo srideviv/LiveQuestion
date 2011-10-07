@@ -1,0 +1,29 @@
+<h1>Listing comments</h1>
+
+<table>
+  <tr>
+    <th>Reply</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @comments.each do |comment| %>
+      <tr>
+        <td><%= comment.reply %></td>
+        <% if session[:current_user_id]!=nil ||session[:admin_user] %>
+
+            <% if session[:current_user_id]==comment.id %>
+                <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
+                <td><%= link_to 'Destroy', comment, confirm: 'Are you sure?', method: :delete %></td>
+            <% end %>
+        <% end %>
+      </tr>
+  <% end %>
+</table>
+
+<br/>
+
+<%= link_to 'New Comment', new_comment_path %>
+
+<%= link_to 'Back', posts_path %>

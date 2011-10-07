@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+sri:
+  uname: "sri"
+  name: "name1"
+  email: "email1@gmail.com"
+  hashed_password: "ea056d8a8f3061a89dc9e6c25a1f42ae2c20657b915121a98798b09bf8c96384"
+  salt: "395859720.8582764252009774"
+  admin_perm: true
+  #password: fixpassword1
+
+gir:
+  uname: "gir"
+  name: "name2"
+  email: "email2@gmail.com"
+  hashed_password: "58962875a2599e3588753fa9b15ffb0a4c9a5cd6fca5058081da0c811d892b65"
+  salt: "581340600.8984468260707527"
+  admin_perm: false
+  #password: fixpassword2
+
+ash:
+  uname: "ash"
+  name: "name3"
+  email: "email3@gmail.com"
+  hashed_password: "5d570ea6abc6e6cd2c0725fa3d14b08931324b2378a54f8a6cf6949882c42dd2"
+  salt: "431478120.7628004403902926"
+  admin_perm: false
+  #password: fixpassword3
+
