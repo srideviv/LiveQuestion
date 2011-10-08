@@ -16,6 +16,7 @@ def new
         else
           flash[:notice]="You can vote only once!!!"
         end
+      else
         flash[:notice]="You cannot vote your own comments!!!"
       end
     end
