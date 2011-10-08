@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbbe118a-97ec-43e1-82e3-daf6044ac39d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
     </list>
     <ignored path="LiveQuestionApp.iws" />
@@ -32,7 +33,7 @@
       <file leaf-file-name="posts_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="43" selection-start="136" selection-end="136" vertical-scroll-proportion="0.028911564">
+            <state line="4" column="83" selection-start="176" selection-end="176" vertical-scroll-proportion="0.028911564">
               <folding />
             </state>
           </provider>
@@ -669,7 +670,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="43" selection-start="136" selection-end="136" vertical-scroll-proportion="0.028911564">
+        <state line="4" column="83" selection-start="176" selection-end="176" vertical-scroll-proportion="0.028911564">
           <folding />
         </state>
       </provider>

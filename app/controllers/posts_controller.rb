@@ -2,7 +2,7 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.find(:all,:order => "numVotes DESC, created_at DESC", :limit => "5")
+    @posts = Post.find(:all,:order => 'numVotes DESC, created_at DESC', :limit => 5)
 
     respond_to do |format|
       format.html # index.html.erb
