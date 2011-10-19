@@ -23,11 +23,8 @@
     <%= f.label :email %><br />
     <%= f.text_field :email %>
   </div>
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password %>
-  </div>
-     <% if session[:admin_user] !=false %>
+
+     <% if session[:admin_user] == true %>
   <div class="field">
     <%= f.label :admin_perm %><br />
     <%= f.check_box :admin_perm %>

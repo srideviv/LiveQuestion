@@ -6,24 +6,24 @@
   <% if session[:current_user_id] != nil %>
       <h3>Logged in as: <%= User.find(session[:current_user_id]).name %></h3>
   <% end %>
-  <% if session[:admin_user] !=false %>
+  <% if session[:admin_user] == true %>
       <h3 style="margin-right: 480px; margin-left: 380px;width: 500px; color:#154A6F;">Admin DashBoard</h3>
 
-      <div id="tabs" style="margin-right: 480px; margin-left: 380px;width: 600px">
+      <div id="tabs" style="margin-right: 400px; margin-left: 370px;width: 670px">
 
         <ul>
-          <li><a href="#tabs-1">New User</a></li>
-          <li><a href="#tabs-2">Modify User</a></li>
-          <li><a href="#tabs-3">Delete Questions</a></li>
-          <li><a href="#tabs-4">Reports</a></li>
-          <li><a href="#tabs-5">Archives</a></li>
+          <li><a href="1"><%= link_to 'New User', new_user_path %></a></li>
+          <li><a href="2"><%= link_to 'Delete User', :controller => "users", :action => "index" %></a></li>
+          <li><a href="3"><%= link_to 'Questions', :controller => "posts", :action => "report", :id =>"options" %></a></li>
+          <li><a href="4"><%= link_to 'Report',:controller => "posts", :action => "report", :id =>"report" %></a></li>
+          <li><a href="5"><%= link_to 'Archives',:controller => "posts", :action => "index" %></a></li>
         </ul>
 
-        <div id="tabs-1"> Add New User: <%= link_to 'New User', new_user_path %> </div>
+       <!-- <div id="tabs-1"> Add New User: <%= link_to 'New User', new_user_path %> </div>
         <div id="tabs-2"> Make admin or delete user from the system: <%= link_to 'Delete User', :controller => "users", :action => "index" %></div>
         <div id="tabs-3"> Delete any post: <%= link_to 'Questions', :controller => "posts", :action => "report", :id =>"options" %></div>
         <div id="tabs-4"> View activity report: <%= link_to 'Report',:controller => "posts", :action => "report", :id =>"report" %></div>
-        <div id="tabs-5"> View archived questions: <%= link_to 'Archives',:controller => "posts", :action => "index" %></div>
+        <div id="tabs-5"> View archived questions: <%= link_to 'Archives',:controller => "posts", :action => "index" %></div>   -->
 
       </div>
       </div>
@@ -78,7 +78,7 @@
                   </li>
               <% end %>
             </ul>
-            <% if session[:admin_user] !=false || session[:current_user_id] == post.user_id %>
+            <% if session[:admin_user] == true || session[:current_user_id] == post.user_id %>
 
                 <%= link_to 'Show', post %>
                 <%= link_to 'Edit', edit_post_path(post) %>
