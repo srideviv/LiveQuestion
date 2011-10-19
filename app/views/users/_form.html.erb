@@ -24,12 +24,12 @@
     <%= f.text_field :email %>
   </div>
 
-     <% if session[:admin_user] == true %>
+     
   <div class="field">
     <%= f.label :admin_perm %><br />
     <%= f.check_box :admin_perm %>
   </div>
-        <% end %>
+        
     <%= hidden_field 'vote' ,'post_id',
                      {'value' => @post_id} %>
   <div class="actions">
