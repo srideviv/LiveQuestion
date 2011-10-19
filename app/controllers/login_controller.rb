@@ -9,7 +9,7 @@ class LoginController < ApplicationController
 
   def login
     session[:current_user_id] = nil
-    session[:admin_user] = false
+    session[:admin_user] = nil
     @user = User.find_by_uname(params[:uname])
     if @user == nil || !@user.authenticate(params[:uname], params[:password])
       flash[:alert] = "Unable to log in to the system. Please check your credentials"
@@ -27,7 +27,7 @@ class LoginController < ApplicationController
 
   def logout
     session[:current_user_id] = nil
-    session[:admin_user]= false
+    session[:admin_user]= nil
     flash[:alert] = "Successfully Logged out"
     redirect_to :action => "index"
   end
