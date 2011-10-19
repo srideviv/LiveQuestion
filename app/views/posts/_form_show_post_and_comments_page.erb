@@ -7,9 +7,21 @@
       <h3>Logged in as: <%= User.find(session[:current_user_id]).name %></h3>
   <% end %>
   <% if session[:admin_user] == true %>
-      <h3 style="margin-right: 480px; margin-left: 380px;width: 500px; color:#154A6F;">Admin DashBoard</h3>
+      <h3 style="margin-right: 480px; margin-left: 27%;width: 500px; color:#154A6F;">Admin DashBoard</h3>
 
-      <div id="tabs" style="margin-right: 400px; margin-left: 370px;width: 670px">
+      <div id align="adminmenu" style="margin-right: 400px; margin-left: 26%;width: 700px;height: 60px; text-align: center; padding-bottom: 5px; border: 2px solid #154A6F;border-radius: 10px; font-size: 18pt;  ">
+         <ul style="font-size: 20px;">
+          <li style="display: inline;"><a href="#"><%= link_to 'New User', new_user_path %></a></li>     &nbsp;&nbsp;&nbsp;
+          <li style="display: inline;"><a href="#"><%= link_to 'Delete User', :controller => "users", :action => "index" %></a></li>  &nbsp;&nbsp;&nbsp;
+          <li style="display: inline;"><a href="#"><%= link_to 'Questions', :controller => "posts", :action => "report", :id =>"options" %></a></li>   &nbsp;&nbsp;&nbsp;
+          <li style="display: inline;"><a href="#"><%= link_to 'Report',:controller => "posts", :action => "report", :id =>"report" %></a></li>   &nbsp;&nbsp;&nbsp;
+          <li style="display: inline;"><a href="#"><%= link_to 'Archives',:controller => "posts", :action => "index" %></a></li>
+        </ul>
+        <br style="clear:left"/>
+      </div>
+
+
+     <!-- <div id="tabs" style="margin-right: 400px; margin-left: 370px;width: 670px">
 
         <ul>
           <li><a href="1"><%= link_to 'New User', new_user_path %></a></li>
@@ -19,7 +31,7 @@
           <li><a href="5"><%= link_to 'Archives',:controller => "posts", :action => "index" %></a></li>
         </ul>
 
-       <!-- <div id="tabs-1"> Add New User: <%= link_to 'New User', new_user_path %> </div>
+       <div id="tabs-1"> Add New User: <%= link_to 'New User', new_user_path %> </div>
         <div id="tabs-2"> Make admin or delete user from the system: <%= link_to 'Delete User', :controller => "users", :action => "index" %></div>
         <div id="tabs-3"> Delete any post: <%= link_to 'Questions', :controller => "posts", :action => "report", :id =>"options" %></div>
         <div id="tabs-4"> View activity report: <%= link_to 'Report',:controller => "posts", :action => "report", :id =>"report" %></div>
