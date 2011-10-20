@@ -42,7 +42,7 @@
                  </li>
              <% end %>
            </ol>
-           <% if session[:admin_user] !=false || session[:current_user_id] == post.user_id %>
+           <% if session[:admin_user] == true || session[:current_user_id] == post.user_id %>
 
                <%= link_to 'Show', post %>
                <%= link_to 'Edit', edit_post_path(post) %>
