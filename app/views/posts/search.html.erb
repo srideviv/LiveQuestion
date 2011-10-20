@@ -1,32 +1,4 @@
-<% if session[:current_user_id] == nil %>
-    <%= link_to 'login', :controller => "login", :action => "index" %>
-    <br>
-<% end %>
-<div id="container">
 
-  <% if session[:admin_user] !=false %>
-      <h3 style="margin-right: 350px; margin-left: 350px;width: 400px">Admin DashBoard</h3>
-
-      <div id="tabs" style="margin-right: 350px; margin-left: 350px;width: 400px">
-
-        <ul>
-          <li><a href="#tabs-1">New User</a></li>
-          <li><a href="#tabs-2">Delete User</a></li>
-          <li><a href="#tabs-3">Statistics</a></li>
-        </ul>
-
-        <div id="tabs-1"> Add New User: <%= link_to 'New User', new_user_path %> </div>
-        <div id="tabs-2"> Delete User from the system: <%= link_to 'Delete User', :controller => "users", :action => "index" %></div>
-        <div id="tabs-3"> View Report <%= link_to 'Report', :controller => "users", :action => "index" %></div>
-
-      </div>
-      </div>
-
-  <% end %>
-  <%= link_to 'Post a Question', new_post_path %>
-  <br>
-
-  <h4>Questions</h4>
   <table style="width: 100%">
 
     <% @posts.each do |post| %>
