@@ -23,14 +23,23 @@
     <%= f.label :email %><br />
     <%= f.text_field :email %>
   </div>
+<<<<<<< HEAD
 
+=======
+  <% if session[:admin_user] != true %>
+>>>>>>> 5c97a2e3c8e379f1ae3c0639be7f1d39906092a8
 	<div class="field">
     <%= f.label :password %><br />
-    <%= f.password_field :password %>
+    <%= f.text_field :password %>
   </div>
+<<<<<<< HEAD
 
 
  <% if session[:admin_user] == true %>
+=======
+  <% end %>
+     <% if session[:admin_user] == true %>
+>>>>>>> 5c97a2e3c8e379f1ae3c0639be7f1d39906092a8
   <div class="field">
     <%= f.label :admin_perm %><br />
     <%= f.check_box :admin_perm %>
