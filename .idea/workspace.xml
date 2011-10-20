@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbbe118a-97ec-43e1-82e3-daf6044ac39d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_formedit.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_formedit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-    </list>
+    <list default="true" id="dbbe118a-97ec-43e1-82e3-daf6044ac39d" name="Default" comment="" />
     <ignored path="LiveQuestionApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,28 +45,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/login_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="52" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_form_show_post_and_comments_page.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/_form_show_post_and_comments_page.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="27" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0">
+            <state line="20" column="27" selection-start="1515" selection-end="1515" vertical-scroll-proportion="-13.076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/search.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/search.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="44" selection-start="927" selection-end="927" vertical-scroll-proportion="0.76836157">
               <folding />
             </state>
           </provider>
@@ -113,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_formedit.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_formedit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/_formedit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.59375">
+            <state line="25" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
@@ -822,16 +817,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="392" selection-end="444" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="262" selection-end="355" vertical-scroll-proportion="0.0" />
@@ -860,11 +845,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_form_show_post_and_comments_page.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
@@ -905,7 +885,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_formedit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.59375">
+        <state line="25" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/_form_show_post_and_comments_page.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="1515" selection-end="1515" vertical-scroll-proportion="-13.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/search.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/search.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="44" selection-start="927" selection-end="927" vertical-scroll-proportion="0.76836157">
           <folding />
         </state>
       </provider>
